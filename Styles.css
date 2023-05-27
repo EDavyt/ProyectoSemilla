@@ -89,14 +89,60 @@ h3 {
 }
 
 .Productos{
-    display:grid;             
+    display:flex;             
     place-items: center;
-    grid-template-rows: auto;
+    flex-direction: row;
+    justify-content: space-around
+    
     
 }
 
-.Prsoducto{
+.Producto{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FBFAF6;
+}
+
+.Contactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+}
+
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #3C2313;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;   
+    line-height: 12px;
+    padding: 4px;
 }

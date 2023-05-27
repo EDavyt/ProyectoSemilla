@@ -120,6 +120,15 @@ h4{
     color: #3C2313;
 }
 
+input{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3C2313;
+    width: 300%;
+    color: #FFFFFf  ;
+}
+
 
 
 

@@ -5,48 +5,64 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Pet Shop</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
-        <section>
+        <section class="Header">
             <span>Grandes ofertas en comederos</span>
-            <span>Espanol</span>
-            <span>$ARG</span>
+            <div>
+                <span>Espanol</span>
+                <span>$ARG</span>
+            </div>
         </section>
-        <section>
-            <img src="logo.png" alt="Logo de el sitio">
-            <nav><span>Categorias</span><span>Pets</span><span>Nosotros</span><span>Contactanos</span></nav>
+        <section class="Header2">
+            <img src="Logo.png" alt="Logo de el sitio">
+            <nav ><span> Categorias </span><span> Pets </span><span> Nosotros </span><span> Contactanos </span></nav>
         </section>
     </header>
 
     <main>
         <!--Seccion de el banner-->
-        <section>
-            <img src="bowl-and-pet-daities-on-green-background 1.png" alt="Imagen de un Bowl con comida de perro en un fondo Verde">
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <p>¡Comederos en descuento!</p>
-            <p>COMEDEROS</p>
-        </section>
+        <section class="Carrousel">
+            <article class="InfoCarrousel">
+                <h2 class="margenes">¡Es un placer tenerte aquí!</h2>
+                <p class="margenes">¡Comederos en descuento!</p>
+                <p class="margenes botonCarrousel">COMEDEROS</p>
+            </article>
+            </section>
         <!--Seccion de productos destacados y Nav bar del Shop-->
-        <section>
+        <section class="Logo_Bar">
             <img src="pawprint 1.png" alt="Imagen de una patita de perro">
             <h3>Productos Destacados</h3>
-            <span>Comederos</span><span>Accesorios</span><span>Comida</span>
+                <nav>
+                    <a>Comederos</a>
+                    <span> - </span>
+                    <a>Accesorios</a>
+                    <span> - </span>
+                    <a>Comida</a>
+                </nav>
         </section>
         <!--Seccion de Productos-->
-        <Section>
+        <Section class="Productos">
             <!-- Churrasquito -->
-            <img src="churrasquito.png" alt="Imagen ed Churrasco de Juguete">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
+            <article class="Producto">
+                <img src="churrasquito.png" alt="Imagen ed Churrasco de Juguete">
+                <p>Juguete Churrasquito</p>
+                <p>$150</p>
+            </article>
             <!-- Comedero-->
-            <img src="comedero.png" alt="Imagen de un comedero con comida de perro ">
-            <p>Comedero para perro</p>
-            <p>$250</p>
+            <article class="Producto">
+                <img src="comedero.png" alt="Imagen de un comedero con comida de perro ">
+                <p>Comedero para perro</p>
+                <p>$250</p>
+            </article>
             <!--Juguete Huesito-->
-            <img src="Huesito.png" alt="Imagen de Juguete de huesito">
-            <p>Juguete Huesito</p>
-            <p>$650</p>
+            <article class="Producto">
+                <img src="Huesito.png" alt="Imagen de Juguete de huesito">
+                <p>Juguete Huesito</p>
+                <p>$650</p>
+            </article>
         </Section>
     </main>
 
